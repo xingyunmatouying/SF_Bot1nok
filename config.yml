@@ -279,6 +279,30 @@ matchmaking:
     blitz4:
       tc: 5+0
       weight: 100
+    bullet_crazy:
+      tc: 1+1
+      weight: 100
+      variant: crazyhouse
+    bullet_tc:
+      tc: 1+1
+      weight: 100
+      variant: 3check
+    bullet_antichess:
+      tc: 1+1
+      weight: 100
+      variant: antichess
+    bullet_koth:
+      tc: 1+1
+      weight: 100
+      variant: kingofthehill
+    bullet_rk:
+      tc: 1+1
+      weight: 100
+      variant: racingkings
+    bullet_horde:
+      tc: 1+1
+      weight: 100
+      variant: horde
 #    rapid:
 #       tc: 8+2
 #      weight: 75
