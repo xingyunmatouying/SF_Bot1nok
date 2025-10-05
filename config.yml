@@ -286,7 +286,7 @@ matchmaking:
     bullet_tc:
       tc: 1+1
       weight: 100
-      variant: threecheck
+      variant: three-check
     bullet_antichess:
       tc: 1+1
       weight: 100
@@ -306,7 +306,7 @@ matchmaking:
     bullet_atomic:
       tc: 1+1
       weight: 100
-      variant: horde
+      variant: atomic
 #    rapid:
 #       tc: 8+2
 #      weight: 75
