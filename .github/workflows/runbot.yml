@@ -28,9 +28,11 @@ jobs:
 
       - name: Install antichess syzygy
         run: |
-          wget https://tablebase.lichess.ovh/tables/antichess/2-3-4-5-giveaway
-          mv -f 2-3-4-5-giveaway syzygy-antichess
-          rm -r 2-3-4-5-giveaway
+          wget -r --no-parent -P ./syzygy-antichess https://tablebase.lichess.ovh/tables/antichess/2-3-4-5-giveaway
+
+      - name: Install atomic syzygy
+        run: |
+          wget -r --no-parent -P ./syzygy-atomic https://tablebase.lichess.ovh/tables/atomic/3-4-5 
 
       - name: Install Stockfish
         run: |
