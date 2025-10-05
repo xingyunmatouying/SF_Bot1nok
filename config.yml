@@ -286,7 +286,7 @@ matchmaking:
     bullet_tc:
       tc: 1+1
       weight: 100
-      variant: three-check
+      variant: threeCheck
     bullet_antichess:
       tc: 1+1
       weight: 100
@@ -294,11 +294,11 @@ matchmaking:
     bullet_koth:
       tc: 1+1
       weight: 100
-      variant: kingofthehill
+      variant: kingOfTheHill
     bullet_rk:
       tc: 1+1
       weight: 100
-      variant: racingkings
+      variant: racingKings
     bullet_horde:
       tc: 1+1
       weight: 100
