@@ -104,10 +104,10 @@ syzygy:
     max_pieces: 5                         # Count of max pieces in the local syzygy endgame tablebases.
     instant_play: true                    # Whether the bot should play directly from syzygy without engine if possible.
   atomic:
-    enabled: false                        # Activate local syzygy endgame tablebases.
+    enabled: true                        # Activate local syzygy endgame tablebases.
     paths:                                # Paths to local syzygy endgame tablebases.
-      - "/path/to/atomic/syzygy"
-    max_pieces: 6                         # Count of max pieces in the local syzygy endgame tablebases.
+      - "./syzygy-atomic"
+    max_pieces: 5                         # Count of max pieces in the local syzygy endgame tablebases.
     instant_play: true                    # Whether the bot should play directly from syzygy without engine if possible.
 
 gaviota:
@@ -239,7 +239,7 @@ challenge:                                # Incoming challenges.
 #   - rated                               # Rated games
 
 matchmaking:
-  delay: 300                               # Time in seconds the bot must be idle before a new challenge is started.
+  delay: 360                               # Time in seconds the bot must be idle before a new challenge is started.
   timeout: 30                             # Time until a challenge is canceled.
   selection: weighted_random              # Matchmkaing type selection is one of "weighted_random", "sequential" or "cyclic".
   types:
@@ -300,6 +300,10 @@ matchmaking:
       weight: 100
       variant: racingkings
     bullet_horde:
+      tc: 1+1
+      weight: 100
+      variant: horde
+    bullet_atomic:
       tc: 1+1
       weight: 100
       variant: horde
