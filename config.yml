@@ -239,7 +239,7 @@ challenge:                                # Incoming challenges.
 #   - rated                               # Rated games
 
 matchmaking:
-  delay: 30                               # Time in seconds the bot must be idle before a new challenge is started.
+  delay: 300                               # Time in seconds the bot must be idle before a new challenge is started.
   timeout: 30                             # Time until a challenge is canceled.
   selection: weighted_random              # Matchmkaing type selection is one of "weighted_random", "sequential" or "cyclic".
   types:
@@ -266,6 +266,18 @@ matchmaking:
       weight: 100
     bullet4:
       tc: 0+3
+      weight: 100
+    blitz:
+      tc: 3+2
+      weight: 100
+    blitz2:
+      tc: 3+0
+      weight: 100
+    blitz3:
+      tc: 5+3
+      weight: 100
+    blitz4:
+      tc: 5+0
       weight: 100
 #    rapid:
 #       tc: 8+2
