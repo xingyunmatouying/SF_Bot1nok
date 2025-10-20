@@ -333,7 +333,7 @@ messages:
 whitelist:                                # List of users whose challenges are always accepted.
 - bot1e
 - TestingBot1
-- SF_Bot1nok
+- Bot1nokk
 - Lucky_0wl
 
 blacklist:                                # List of users who are not challenged and whose challenges are declined.
