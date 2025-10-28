@@ -139,7 +139,7 @@ opening_books:
         - Book
         - YetAnotherBook
     standard_tournament:
-      selectiom: best_move
+      selection: best_move
       allow_repeitions: true
       names:
         - Tourneys
